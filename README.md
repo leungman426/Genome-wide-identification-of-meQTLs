@@ -66,17 +66,25 @@ Output Files:
 
 Outputs:
 - Fisher's exact test 
-|         |GROUP          | 
-| -----------------|:-------------:| 
-| blood05_H035-030K| obese         | 
-| blood05_H035-031K| normal        | 
+
+| snp      |p_value        | 
+| ---------|:-------------:| 
+|rs10968576| 0.246         | 
+
 
 - SNPs' genotyptes significantly different between cases and controls 
-/
+
+| snp      |case    | control|
+| ---------|:------:|:------:| 
+|rs10968576| GG     | GA     |
+
 ### **3. Clustering the SNPs genotype pattern and count the heterozygous and homozygous calling**
-Use the stacked bar plot with dendrogram: Hierachical clustering of SNPs genotypes (dengrogram) and countheterozygous and homozygous calling (bar plot)
-[stacked barplot with dendrogram](https://github.com/leungman426/Stacked-Barplot-with-Dendrogram)
-img
+Use the stacked bar plot with dendrogram: [stacked barplot with dendrogram](https://github.com/leungman426/Stacked-Barplot-with-Dendrogram)
+Hierachical clustering of SNPs genotypes (dengrogram) 
++
+countheterozygous and homozygous calling (bar plot)
+
+![plot](plot.png)
 
 ### **4. Identification of causal CpGs for obesity via Two sample Mendelian Randomisation (2SMR)**
 [MR analyse.R](https://github.com/leungman426/Genome-wide-identification-of-meQTLs/blob/master/MR%20analyses.R)
@@ -86,10 +94,13 @@ Instrumental variable(IV): cis-meQTL SNPs; trans-meQTLs SNPs (anaylsed by ANOVA 
 *cis: a SNP is within 1Mb upstream or downstream of a CpG site; trans: a SNP is >1Mb away from a CpG site
 
 Exposure data -> association of SNPs with CpGs 
-/
+
+| SNP                | SNP_CHROM| SNP_POS|GENE                 | GENE_START| GENE_END| T_STAT  | P_VALUE | FDR      |
+|:------------------:|:--------:|:------:|:-------------------:|:---------:|:-------:|:-------:|:-------:|:---------:|
+| 9_10177_rs10968576 | 9        |10177   | 11_25607915_25607917| 1001667   | 1001669 | 2.518992| 0.014499| 0.786965 |
 
 Outcome data -> association of SNPs with obestiy (from [GWAS Catalog](https://www.genome.gov/genetics-glossary/Genome-Wide-Association-Studies))
-/
+
 Required R package: [TwoSampleMR](https://github.com/MRCIEU/TwoSampleMRm)
 
 **steps:**
