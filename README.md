@@ -1,11 +1,19 @@
 # Genome Wide Identification of meQTLs in Whole Blood for Obesity 
 
+DNA methylation quantitative trait loci (meQTLs) means genetic variants or Single-nucleotide polymorphism(SNP) are associated with differnt site-specific CpGs methylation pattern. By knowing the meQTLs variants and SNPs associated with obesity, we can obtain the causal methylation site for obeisty via two-sample Mendelian Randomisation.
+
+## **Materials**
+Case contrl study: 7 whole blood sample in obese group
+                   7 whole bllod sample in normal group
+SNPs calling  for each sample                    
+DNA methylation profiling for each sample
+meQTLs mapping by means of ANOVA and linear regression
 
 
 ## **Analysis Workflow**
 ### 1. **SNP genotyping association with clinical traits**
 
-### 2. **Clustering the SNPs genotype pattern and count the heterozygous and homozygous calling** 
+### 2. **Clustering the SNPs genotype pattern and count the heterozygous and homozygous SNPs** 
 
 ### 3. **Identification of causal CpGs for obesity via Two sample Mendelian Randomisation (2SMR)**
 
@@ -78,7 +86,7 @@ Outputs:
 | ---------|:------:|:------:| 
 |rs10968576| GG     | GA     |
 
-### **3. Clustering the SNPs genotype pattern and count the heterozygous and homozygous calling**
+### **3. Clustering the SNPs genotype pattern and count the heterozygous and homozygous SNPs**
 Use the stacked bar plot with dendrogram: [stacked barplot with dendrogram](https://github.com/leungman426/Stacked-Barplot-with-Dendrogram)
 Hierachical clustering of SNPs genotypes (dengrogram) 
 +
@@ -108,6 +116,7 @@ Required R package: [TwoSampleMR](https://github.com/MRCIEU/TwoSampleMRm)
 2. obtain **Outcome data** `read_outcome_data()`
 3. Harmonise data `harmonise_dataa()`
 4. perfom MR `harmonise_data()`
+5. scatter plot: plot the relationship of the SNP effects on the exposure against the SNP effects onthe coutcome
 
 
 
