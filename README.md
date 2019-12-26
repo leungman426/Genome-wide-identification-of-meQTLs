@@ -28,15 +28,13 @@
 | 3       | GG           |
 | ...     | ...          |
 
-### meQTLs (cis-meQTLs by ANOVA; cis-meQTLs by LR; tran-meQTLs by ANOVA; tran-meQTLs by LR)
+### meQTLs 
+(cis-meQTLs by ANOVA; cis-meQTLs by LR; tran-meQTLs by ANOVA; tran-meQTLs by LR)
 | SNP               | SNP_CHROM| SNP_POS|GENE                 | GENE_START| GENE_END| T_STAT  | P_VALUE | FDR|
 | ------------------|:--------:| :-----:|:-------------------:|:---------:|:-------:|:-------:|:-------:|:-----:|
 | 9_10177_rs10968576| 9        |10177   | 11_25607915_25607917| 1001667   | 1001669 | 2.518992| 0.014499| 0.786965|
 
-### GWAS SNPs Summary data
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
+### GWAS SNPs Summary data obtain from [GWAS Catalog](https://www.genome.gov/genetics-glossary/Genome-Wide-Association-Studies)) 
 
 ## Analysis Steps
 
@@ -44,17 +42,30 @@
 
 Output Files: 
 - Count the heterzgyous and homozgyous SNPs
-/
+|SAMPLE            |GROUP          | 
+| -----------------|:-------------:| 
+| blood05_H035-030K| obese         | 
+
 - Count the case and control samples for each SNP genotypes 
-/
+|snp   |genotype  |count_homo |count_heter1|count_heter2|
+| ------|:-------:| :-------:| :-------:| :-------:| 
+| rs10968576| G | 15 |1|1|
+
+
 - Simplified SNPs profiling 
-/
+|SAMPLE            |GROUP          | 
+| -----------------|:-------------:| 
+| blood05_H035-030K| obese         | 
 
 ### **2. SNP genotyping association with clinical traits** [stat_test.R](https://github.com/leungman426/Genome-wide-identification-of-meQTLs/blob/master/stat_test.R)
 
 Outputs:
 - Fisher's exact test 
-/
+|         |GROUP          | 
+| -----------------|:-------------:| 
+| blood05_H035-030K| obese         | 
+| blood05_H035-031K| normal        | 
+
 - SNPs' genotyptes significantly different between cases and controls 
 /
 ### **3. Clustering the SNPs genotype pattern and count the heterozygous and homozygous calling**
