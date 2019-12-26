@@ -99,6 +99,7 @@ countheterozygous and homozygous calling (bar plot)
 
 2SMRwas used to identify putatively causal CpGs for obestiy.
 Instrumental variable(IV): cis-meQTL SNPs; trans-meQTLs SNPs (anaylsed by ANOVA or Linear Regression)
+
 *cis: a SNP is within 1Mb upstream or downstream of a CpG site; trans: a SNP is >1Mb away from a CpG site
 
 Exposure data -> association of SNPs with CpGs 
