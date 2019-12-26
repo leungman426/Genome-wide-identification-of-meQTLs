@@ -20,7 +20,7 @@ DNA methylation quantitative trait loci (meQTLs) means genetic variants or Singl
 ## **Input Files** 
 ### SNPs profiling for all samples 
 | blood05_H035-030K | blood05_H035-031K   | blood05_H035-032K |   id       |
-| ------------------|:-------------------:|:-----------------:|:----------:|
+| :----------------:|:-------------------:|:-----------------:|:----------:|
 | 3:0               | 3:0                 | 3:0               | rs17541203 |
 
 ### Clinical traits for all samples 
@@ -60,14 +60,14 @@ Output Files:
 - Count the case and control samples for each SNP genotypes 
 
 | snp       | genotype| count_homo |count_heter1| count_heter2|
-|-----------|:-------:|:----------:|:----------:|:-----------:| 
+| :--------:|:-------:|:----------:|:----------:|:-----------:| 
 | rs10968576| G       | 15         |1           |1            |
 
 
 - Simplified SNPs profiling 
 
 | blood05_H035-030K | blood05_H035-031K   | blood05_H035-032K |   id       |
-| ------------------|:-------------------:|:-----------------:|:----------:|
+| :----------------:|:-------------------:|:-----------------:|:----------:|
 | 3                 | 3                   | 3                 | rs17541203 |
 
 ### **2. SNP genotyping association with clinical traits** [stat_test.R](https://github.com/leungman426/Genome-wide-identification-of-meQTLs/blob/master/stat_test.R)
