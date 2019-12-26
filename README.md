@@ -3,11 +3,11 @@
 DNA methylation quantitative trait loci (meQTLs) means genetic variants or Single-nucleotide polymorphism(SNP) are associated with differnt site-specific CpGs methylation pattern. By knowing the meQTLs variants and SNPs associated with obesity, we can obtain the causal methylation site for obeisty via two-sample Mendelian Randomisation.
 
 ## **Materials**
-Case contrl study: 7 whole blood sample in obese group
+- Case contrl study: 7 whole blood sample in obese group; 
                    7 whole bllod sample in normal group
-SNPs calling  for each sample                    
-DNA methylation profiling for each sample
-meQTLs mapping by means of ANOVA and linear regression
+- SNPs calling  for each sample                    
+- DNA methylation profiling for each sample
+- meQTLs mapping by means of ANOVA and linear regression
 
 
 ## **Analysis Workflow**
