@@ -33,7 +33,7 @@ def sortdf(df,**kwargs):
 
 plot_df = sortdf(count_snpe, index=index_phylogenetics)
 
-# stacked boxplot for heterozygous and homozygous SNPs count
+# stacked barplot for heterozygous and homozygous SNPs count
 ypos = np.arange(len(plot_df['samples']))
 plt.figure(figsize=(70, 30), dpi = 90)
 plt.subplots_adjust(hspace=0.6, right=1, left=0.05)
