@@ -16,9 +16,11 @@
 | 3:0               | 3:0                 | 3:0               | rs17541203|
 
 ### Clinical traits for all samples 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
+|SAMPLE            |GROUP          | 
+| -----------------|:-------------:| 
+| blood05_H035-030K| obese         | 
+| -----------------|:-------------:| 
+| blood05_H035-031K| normal        | 
 
 ### SNPs genotype mapping 
 | Tables        | Are           | Cool  |
