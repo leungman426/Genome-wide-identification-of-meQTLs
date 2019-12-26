@@ -19,7 +19,6 @@
 |SAMPLE            |GROUP          | 
 | -----------------|:-------------:| 
 | blood05_H035-030K| obese         | 
-| -----------------|:-------------:| 
 | blood05_H035-031K| normal        | 
 
 ### SNPs genotype mapping 
