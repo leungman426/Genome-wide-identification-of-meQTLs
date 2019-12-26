@@ -18,32 +18,32 @@ DNA methylation quantitative trait loci (meQTLs) means genetic variants or Singl
 ### 3. **Identification of causal CpGs for obesity via Two sample Mendelian Randomisation (2SMR)**
 
 ## **Input Files** 
-### SNPs profiling for all samples 
+### - SNPs profiling for all samples 
 | blood05_H035-030K | blood05_H035-031K   | blood05_H035-032K |   id       |
 | :----------------:|:-------------------:|:-----------------:|:----------:|
 | 3:0               | 3:0                 | 3:0               | rs17541203 |
 
-### Clinical traits for all samples 
+### - Clinical traits for all samples 
 |SAMPLE            |GROUP          | 
 | -----------------|:-------------:| 
 | blood05_H035-030K| obese         | 
 | blood05_H035-031K| normal        | 
 
-### SNPs genotype mapping 
+### - SNPs genotype mapping 
 | 1       | AA           | 
 | --------|:------------:| 
 | 2       | CC           | 
 | 3       | GG           |
 | ...     | ...          |
 
-### meQTLs 
+### - meQTLs 
 (cis-meQTLs by ANOVA; cis-meQTLs by LR; tran-meQTLs by ANOVA; tran-meQTLs by LR)
 
 | SNP                | SNP_CHROM| SNP_POS|GENE                 | GENE_START| GENE_END| T_STAT  | P_VALUE | FDR      |
 |:------------------:|:--------:|:------:|:-------------------:|:---------:|:-------:|:-------:|:-------:|:---------:|
 | 9_10177_rs10968576 | 9        |10177   | 11_25607915_25607917| 1001667   | 1001669 | 2.518992| 0.014499| 0.786965 |
 
-### GWAS SNPs Summary data obtain from [GWAS Catalog](https://www.genome.gov/genetics-glossary/Genome-Wide-Association-Studies)) 
+### - GWAS SNPs Summary data obtain from [GWAS Catalog](https://www.genome.gov/genetics-glossary/Genome-Wide-Association-Studies)) 
 
 ## Analysis Steps
 
