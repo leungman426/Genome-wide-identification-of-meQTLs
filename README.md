@@ -97,9 +97,9 @@ countheterozygous and homozygous calling (bar plot)
 ### **4. Identification of causal CpGs for obesity via Two sample Mendelian Randomisation (2SMR)**
 [MR analyse.R](https://github.com/leungman426/Genome-wide-identification-of-meQTLs/blob/master/MR%20analyses.R)
 
-2SMRwas used to identify putatively causal CpGs for obestiy.
-Instrumental variable(IV): cis-meQTL SNPs; trans-meQTLs SNPs (anaylsed by ANOVA or Linear Regression)
+2SMR was used to identify putatively causal CpGs for obestiy.
 
+Instrumental variable(IV): cis-meQTL SNPs; trans-meQTLs SNPs 
 *cis: a SNP is within 1Mb upstream or downstream of a CpG site; trans: a SNP is >1Mb away from a CpG site
 
 Exposure data -> association of SNPs with CpGs 
