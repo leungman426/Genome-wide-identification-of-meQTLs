@@ -26,11 +26,12 @@
 | --------|:------------:| 
 | 2       | CC           | 
 | 3       | GG           |
+| ...     | ...          |
 
-### meQTLs for all SNPs
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
+### meQTLs (cis-meQTLs by ANOVA; cis-meQTLs by LR; tran-meQTLs by ANOVA; tran-meQTLs by LR)
+| SNP               | SNP_CHROM| SNP_POS|GENE                 | GENE_START| GENE_END| T_STAT  | P_VALUE | FDR|
+| ------------------|:--------:| :-----:|:-------------------:|:---------:|:-------:|:-------:|:-------:|:-----:|
+| 9_10177_rs10968576| 9        |10177   | 11_25607915_25607917| 1001667   | 1001669 | 2.518992| 0.014499| 0.786965|
 
 ### GWAS SNPs Summary data
 | Tables        | Are           | Cool  |
