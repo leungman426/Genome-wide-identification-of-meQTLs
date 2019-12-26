@@ -31,7 +31,7 @@
 ### meQTLs 
 (cis-meQTLs by ANOVA; cis-meQTLs by LR; tran-meQTLs by ANOVA; tran-meQTLs by LR)
 | SNP               | SNP_CHROM| SNP_POS|GENE                 | GENE_START| GENE_END| T_STAT  | P_VALUE | FDR|
-| ------------------|:--------:| :-----:|:-------------------:|:---------:|:-------:|:-------:|:-------:|:-----:|
+|------------------|:--------:|:-----:|:-------------------:|:---------:|:-------:|:-------:|:-------:|:-----:|
 | 9_10177_rs10968576| 9        |10177   | 11_25607915_25607917| 1001667   | 1001669 | 2.518992| 0.014499| 0.786965|
 
 ### GWAS SNPs Summary data obtain from [GWAS Catalog](https://www.genome.gov/genetics-glossary/Genome-Wide-Association-Studies)) 
