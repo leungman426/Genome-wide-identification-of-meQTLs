@@ -3,11 +3,11 @@
 
 
 ## **Analysis Workflow**
-1. **SNP genotyping association with clinical traits**
+### 1. **SNP genotyping association with clinical traits**
 
-2. **Clustering the SNPs genotype pattern and count the heterozygous and homozygous calling** 
+### 2. **Clustering the SNPs genotype pattern and count the heterozygous and homozygous calling** 
 
-3. **Identification of causal CpGs for obesity via Two sample Mendelian Randomisation (2SMR)**
+### 3. **Identification of causal CpGs for obesity via Two sample Mendelian Randomisation (2SMR)**
 
 ## **Input Files** 
 ### SNPs profiling for all samples 
@@ -22,9 +22,10 @@
 | blood05_H035-031K| normal        | 
 
 ### SNPs genotype mapping 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
+| 1       | AA           | 
+| --------|:------------:| 
+| 2       | CC           | 
+| 3       | GG           |
 
 ### meQTLs for all SNPs
 | Tables        | Are           | Cool  |
