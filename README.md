@@ -109,7 +109,7 @@ Exposure data -> association of SNPs with CpGs
 
 Outcome data -> association of SNPs with obestiy (from [GWAS Catalog](https://www.genome.gov/genetics-glossary/Genome-Wide-Association-Studies))
 
-Required R package: [TwoSampleMR](https://github.com/MRCIEU/TwoSampleMRm)
+Required R package: [TwoSampleMR](https://github.com/MRCIEU/TwoSampleMR)
 
 **steps:**
 1. obtain **Exposure data** `read_exposure_data()`
