@@ -43,13 +43,14 @@
 
 Output Files: 
 - Count the heterzgyous and homozgyous SNPs
-| SAMPLE            |GROUP          | 
-| ------------------|:-------------:| 
-| blood05_H035-030K | obese         | 
+| samples          | heterozygou| homozygous |total| 
+|------------------|:----------:|:----------:|:---:|
+| blood05_H035-030K| 15         | 12         |27   |
+
 
 - Count the case and control samples for each SNP genotypes 
 | snp       | genotype| count_homo |count_heter1| count_heter2|
-| ----------|:-------:|:----------:|:----------:|:-----------:| 
+|-----------|:-------:|:----------:|:----------:|:-----------:| 
 | rs10968576| G       | 15         |1           |1            |
 
 
